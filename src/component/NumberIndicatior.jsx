@@ -51,13 +51,10 @@ const Box = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 34px;
+  font-size: 35px;
   font-weight: 700;
   cursor: pointer;
   background-color: ${(props)=>(props.isSelected ? "black" : "white")};
   color: ${(props)=>(!props.isSelected ? "black" : "white")};
-
-
-  
 
   `
