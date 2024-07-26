@@ -52,7 +52,7 @@ const Box = styled.div`
   justify-content: center;
   align-items: center;
   font-size: 35px;
-  font-weight: 700;
+  font-weight: 800;
   cursor: pointer;
   background-color: ${(props)=>(props.isSelected ? "black" : "white")};
   color: ${(props)=>(!props.isSelected ? "black" : "white")};
